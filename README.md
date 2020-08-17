@@ -7,3 +7,5 @@ app built from scratch that mainly used the following modules:
 -   Webpack
 -   Babel
 -   Node-Sass
+
+Credits to: Andrew Mead
