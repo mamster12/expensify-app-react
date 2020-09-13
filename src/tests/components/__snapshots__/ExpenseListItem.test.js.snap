@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render ExpenseListItem with expenses fixture date 1`] = `
+<div>
+  <[object Object]
+    to="/edit/1"
+  >
+    <h3>
+      Gum
+    </h3>
+  </[object Object]>
+  <ul>
+    <li>
+      amount: 
+      195
+    </li>
+    <li>
+      createdAt: 
+      0
+    </li>
+  </ul>
+</div>
+`;
