@@ -9,15 +9,10 @@ exports[`Should render ExpenseListItem with expenses fixture date 1`] = `
       Gum
     </h3>
   </[object Object]>
-  <ul>
-    <li>
-      amount: 
-      195
-    </li>
-    <li>
-      createdAt: 
-      0
-    </li>
-  </ul>
+  <p>
+    ₱1.95
+     -
+    January 1st, 1970
+  </p>
 </div>
 `;
