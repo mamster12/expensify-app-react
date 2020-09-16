@@ -4,5 +4,6 @@ exports[`should render expense dashboard page correctly 1`] = `
 <div>
   <React.Memo />
   <React.Memo />
+  <React.Memo />
 </div>
 `;
