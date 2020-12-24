@@ -17,7 +17,7 @@ module.exports = (env) => {
     return {
         entry: './src/app.js',
         output: {
-            path: path.resolve(__dirname, 'public', 'dist'),
+            path: path.join(__dirname, 'public', 'dist'),
             filename: 'bundle.js'
         },
         module: {
@@ -26,6 +26,10 @@ module.exports = (env) => {
                     loader: 'babel-loader',
                     test: /\.js$/,
                     exclude: /node_modules/
+                },
+                {
+                    test: /\.(png|jpg)$/,
+                    loader: 'url-loader'
                 },
                 {
                     test: /\.s?css$/,
@@ -82,7 +86,7 @@ module.exports = (env) => {
         ],
         devtool: isProduction ? 'source-map' : 'inline-source-map',
         devServer: {
-            contentBase: path.resolve(__dirname, 'public'),
+            contentBase: path.join(__dirname, 'public'),
             historyApiFallback: true,
             publicPath: '/dist/'
         }
